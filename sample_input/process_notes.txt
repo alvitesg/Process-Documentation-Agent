@@ -1,0 +1,4 @@
+The requisition is created by the requestor and approved by a manager in ERP.
+Procurement issues the purchase order after approval.
+Accounts payable performs a three-way match before posting invoices.
+Treasury runs payments weekly using the bank portal.

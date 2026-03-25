@@ -1,0 +1,10 @@
+flowchart TD
+    S1["Requester: Creates requisition"]
+    S2["Manager: Approves requisition"]
+    S1 --> S2
+    S3["Procurement: Issues purchase order"]
+    S2 --> S3
+    S4["AP: Performs three-way match and posts invoice"]
+    S3 --> S4
+    S5["Treasury: Executes payment run"]
+    S4 --> S5
