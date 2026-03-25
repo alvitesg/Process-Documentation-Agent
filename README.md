@@ -25,10 +25,10 @@ Given process artifacts (SOPs, policies, narratives, walkthrough notes), the age
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-streamlit run process_doc_agent/gui.py
+python -m streamlit run process_doc_agent/gui.py
 ```
 
-Then open the URL shown by Streamlit (usually `http://localhost:8501`) and upload `.txt` files.
+Run the command from the repository root, then open the URL shown by Streamlit (usually `http://localhost:8501`) and upload `.txt` files.
 
 ## Quick start (CLI)
 
